@@ -1,0 +1,60 @@
+*{
+    font-family: 'Pangolin', cursive;
+}
+html{
+    height: 100%;
+}
+body{
+    background: background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+    font-size: 80px;
+    transition: font-size 1s;
+}
+
+h1:hover{
+    font-size: 100px;
+}
+
+h2{
+    margin: 0;
+    font-size: 40px;
+    transition: all 1s;
+}
+
+.social-network i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: grey;
+    transition: all 1s;
+}
+
+.social-network i:hover{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.fade{
+    opacity: 0;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
